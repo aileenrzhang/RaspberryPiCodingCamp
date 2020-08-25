@@ -4,6 +4,7 @@ from time import sleep
 camera = PiCamera()
  
 camera.start_preview()
+camera.preview.alpha = 128
 frame = 1
 
 
